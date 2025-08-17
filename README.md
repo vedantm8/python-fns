@@ -47,7 +47,13 @@ Each function resides in its own folder (e.g., `/opt/functions/fn-hello/`).
 ```
 /opt/functions/
   ├── fn-hello/
+  │   ├── Dockerfile
+  │   ├── main.py
+  │   └── requirements.txt
   └── fn-math/
+      ├── Dockerfile
+      ├── main.py
+      └── requirements.txt
 ```
 
 ### Example: create, edit, build, and test a function that uses `requests` library
