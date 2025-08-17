@@ -113,6 +113,10 @@ fnctl build test
 ```
 curl -s -X POST http://127.0.0.1:8080/fn/test/invoke -H 'Content-Type: application/json' -d '{"url":"https://httpbin.org/get"}'
 ```
+7. Remove hello
+```
+fnctl destroy hello
+```
 
 ## Contributing
 Contributions are welcome! Fork the repo, make your changes, and submit a pull request.
