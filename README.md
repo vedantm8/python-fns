@@ -21,9 +21,12 @@ docker pull vedantm8/python-fns:latest
 
 ### Run the container
 ```
-docker run -it --rm \
+docker run --rm \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  -e DOCKER_HOST=unix:///var/run/docker.sock \
+  -v /opt/functions:/opt/functions \
+  -v /usr/local/bin:/host-bin \
+  -e HOST_FUNCTIONS_DIR=/opt/functions \
+  -e HOST_BIN_DIR=/host-bin \
   vedantm8/python-fns:latest
 ```
 
