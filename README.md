@@ -21,7 +21,6 @@ docker pull vedantm8/python-fns:latest
 
 ### Run the container
 ```
-# Linux host, rootful Docker
 docker run -it --rm \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -e DOCKER_HOST=unix:///var/run/docker.sock \
