@@ -1,7 +1,6 @@
 # python-fns
 
-A lightweight Docker image for running serverless-style Python functions with fnctl.  
-This image is designed to make it easy to deploy and verify function containers on any VM or container platform.
+A lightweight Docker image for running serverless-style Python functions with fnctl. This image is designed to make it easy to deploy and verify function containers on a Linux VM or LXC. 
 
 ## Links
 - [Docker Hub Image](https://hub.docker.com/r/vedantm8/python-fns)
