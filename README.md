@@ -115,18 +115,6 @@ fnctl build test
 curl -s -X POST http://127.0.0.1:8080/fn/test/invoke -H 'Content-Type: application/json' -d '{"url":"https://httpbin.org/get"}'
 ```
 
-
-## Development
-To build the image locally:
-```
-docker build -t python-fns .
-```
-
-To run locally:
-```
-docker run -it python-fns
-```
-
 ## Contributing
 Contributions are welcome! Fork the repo, make your changes, and submit a pull request.
 
