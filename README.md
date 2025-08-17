@@ -42,7 +42,7 @@ All functions are stored under the following path inside the container:
 /opt/functions/
 ```  
 
-Each function resides in its own folder (e.g., `/opt/functions/hello/`).
+Each function resides in its own folder (e.g., `/opt/functions/fn-hello/`).
 
 ```
 /opt/functions/
