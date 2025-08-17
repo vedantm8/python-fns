@@ -39,17 +39,15 @@ Examples:
 
 All functions are stored under the following path inside the container:  
 ```
-/opt/functions/
+/opt/functions/fn-<name>
 ```  
 
 Each function resides in its own folder (e.g., `/opt/functions/fn-hello/`).
 
 ```
 /opt/functions/
-  ├── hello/
-  │   └── main.py
-  └── math/
-      └── add.py
+  ├── fn-hello/
+  └── fn-math/
 ```
 
 ### Example: create, edit, build, and test a function that uses `requests` library
