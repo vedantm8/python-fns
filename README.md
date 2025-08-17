@@ -122,4 +122,4 @@ fnctl destroy hello
 Contributions are welcome! Fork the repo, make your changes, and submit a pull request.
 
 ## License
-This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/vedantm8/python-fns/blob/main/LICENSE) file for details.
