@@ -11,6 +11,10 @@ A lightweight Docker image for running serverless-style Python functions with fn
 - Verified via `fn-verify-all`
 - Can be pushed to DockerHub and redeployed anywhere
 
+## Prerequisites
+- Docker installed and running
+- **Tested Environment:** Currently tested only on Linux LXC (Proxmox). Other environments (native Linux, macOS, Windows) have not yet been verified.
+
 ## Getting Started
 
 ### Pull the image
