@@ -115,6 +115,10 @@ fnctl build test
 ```
 6. Call the function through Traefik on port 8080 (adjust the IP if you’re calling from another host):
 ```
+# You can run the following to get a template CURL command:
+fnctl gencurl hello
+
+# For reference, this is the CURL command to be used in this example
 curl -s -X POST http://127.0.0.1:8080/fn/test/invoke -H 'Content-Type: application/json' -d '{"url":"https://httpbin.org/get"}'
 ```
 7. Remove hello
